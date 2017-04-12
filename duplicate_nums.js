@@ -1,5 +1,5 @@
 function group(arr) {
-  var kvp = {};
+  var kvp = {}; 
   var arrOfArrs = [];
   var index = 0;
   
@@ -13,5 +13,6 @@ function group(arr) {
       arrOfArrs[kvp[arr[i]]].push(arr[i]);
     }
   }
+
   return arrOfArrs;
 }
