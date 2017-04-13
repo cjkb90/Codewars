@@ -7,6 +7,6 @@ function to_nato(words) {
     if (wordsArr[i] == "!"){output.push("!")}
     if (i<wordsArr.length-1 && wordsArr[i].toLowerCase() !== wordsArr[i].toUpperCase()){output.push(" ")}
   }
-  console.log(output.join(""));
+
   return output.join("");
 }
